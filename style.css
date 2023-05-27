@@ -1,0 +1,150 @@
+/* Global styles */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+     background: url(1.jpg) no-repeat center center fixed;
+     background-size: cover;
+     font-family: Arial, sans-serif;
+}
+#navbar
+{
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    display: grid;
+    place-items: center;
+}
+#navbar ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+#navbar ul li
+{
+    font-size: 20px;
+    margin: 0 45px;
+}
+#navbar ul li a
+{
+    text-decoration: none;
+    color: #white;
+}
+#navul li a:hover
+{
+    color: grey;
+}
+/* Header styles */
+header {
+  width: 100vw;
+   background-image: linear-gradient(#FF416C,#ff4b2b);
+  background-size: 100% 100%;
+  
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+header h1 {
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 80px;
+    height: 150px;
+    width: 400px;
+    margin: 90px;
+}
+h1 {
+  margin: 0;
+}
+
+nav {
+  display: inline-block;
+}
+
+ul {
+  list-style-type:afar;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Main styles */
+main {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+text {
+  text-decoration: none;
+  text-align: center;
+  text color: ghostwhite;
+
+}
+h2 {
+  margin-top:10;
+  color: ghostwhite;
+}
+
+section {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 10%;
+  color: ghostwhite;
+}
+
+ul{
+  margin: 10;
+  text-align: center;
+  padding: 10;
+  color: ghostwhite;
+}
+ol{
+  background: url(13.jpg)
+  margin: 10;
+  text-align: center;
+  padding: 10;
+  color: ghostwhite;
+
+}
+li {
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: bottom;
+ 
+}
